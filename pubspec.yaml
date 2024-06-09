@@ -1,0 +1,198 @@
+name: finance_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0-282.3.beta <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  flutter_svg:
+  fl_chart: ^0.68.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/fonts/
+     - assets/icons/
+     - assets/vectors/
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Vazir
+      fonts:
+        - asset: assets/fonts/Vazir/ExtraLight.ttf
+          weight: 100
+        - asset: assets/fonts/Vazir/Light.ttf
+          weight: 300
+        - asset: assets/fonts/Vazir/Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Vazir/Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Vazir/SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Vazir/Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Vazir/ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Vazir/Black.ttf
+          weight: 900
+    - family: Kalameh
+      fonts:
+        - asset: assets/fonts/Kalameh/Thin.ttf
+          weight: 300
+        - asset: assets/fonts/Kalameh/Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Kalameh/Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Kalameh/Black.ttf
+          weight: 900
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Poppins/ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/Poppins/ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins/ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/Poppins/Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins/LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Poppins/Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins/Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Poppins/Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins/MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins/SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins/SemiBoldItalic.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins/Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins/BoldItalic.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins/ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins/ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Poppins/Black.ttf
+          weight: 900
+        - asset: assets/fonts/Poppins/BlackItalic.ttf
+          weight: 900
+          style: italic
+    - family: Dana
+      fonts:
+        - asset: assets/fonts/Dana/Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Dana/ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Dana/Light.ttf
+          weight: 300
+        - asset: assets/fonts/Dana/Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Dana/Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Dana/SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Dana/Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Dana/ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Dana/Black.ttf
+          weight: 900
+    - family: Lalezar
+      fonts:
+        - asset: assets/fonts/Lalezar/Regular.ttf
+          weight: 400
+    - family: IRANSans
+      fonts:
+        - asset: assets/fonts/IRANSans/UltraLight.ttf
+          weight: 100
+        - asset: assets/fonts/IRANSans/Light.ttf
+          weight: 300
+        - asset: assets/fonts/IRANSans/Regular.ttf
+          weight: 400
+        - asset: assets/fonts/IRANSans/Medium.ttf
+          weight: 500
+        - asset: assets/fonts/IRANSans/Bold.ttf
+          weight: 700
+        - asset: assets/fonts/IRANSans/Black.ttf
+          weight: 900
+    - family: Courier
+      fonts:
+        - asset: assets/fonts/Courier/CourierPrime-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Courier/CourierPrime-Bold.ttf
+          weight: 700
