@@ -19,7 +19,7 @@
 برای نصب این اپلیکیشن، دستورات زیر را اجرا کنید:
 
 ```bash
-git clone https://github.com/your-username/finance-app.git
+git clone https://github.com/geeksloths/Finance-App.git
 cd finance-app
 flutter build apk
 ```
