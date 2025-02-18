@@ -5,7 +5,7 @@
 <h1>Finance App</h1>
 </div>
 
-این اپلیکیشن ساده بک طراحی از اپلیکیشن مدیریت درآمد و هزینه است  [Geeksloths](https://geeksloths.github.io)
+این اپلیکیشن ساده بک طراحی از اپلیکیشن مدیریت درآمد و هزینه است  [DivSlayer](https://DivSlayer.github.io)
 
 
 ## ساخته شده توسط 🛠
@@ -19,7 +19,7 @@
 برای نصب این اپلیکیشن، دستورات زیر را اجرا کنید:
 
 ```bash
-git clone https://github.com/geeksloths/Finance-App.git
+git clone https://github.com/DivSlayer/Finance-App.git
 cd finance-app
 flutter build apk
 ```
