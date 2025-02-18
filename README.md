@@ -25,15 +25,9 @@ flutter build apk
 ```
 
 ## تصاویر 📸
-<div style="display:flex;align-items:center;flex-wrap:wrap">
-    <span style="width:33%">
-       <img src="images/mockup-2.png" style="width:100%">
-    </span>
-    <span style="width:33%">
-       <img src="images/mockup-1.png" style="width:100%">
-    </span>
-    <span style="width:33%">
-       <img src="images/mockup-3.png" style="width:100%">
-    </span>
-</div>
+| ورود | خانه | نمودار |
+|----------------------|----------------------|----------------------|
+|<img src="images/mockup-2.png" style="width:100%">|<img src="images/mockup-1.png" style="width:100%">|<img src="images/mockup-3.png" style="width:100%">|
+
+
 
