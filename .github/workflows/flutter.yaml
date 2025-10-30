@@ -19,8 +19,8 @@ jobs:
     - name: Set up Flutter
       uses: subosito/flutter-action@v2
       with:
-        channel: stable
-        flutter-version-file: pubspec.yaml # path to pubspec.yaml
+        channel: beta       # switch to beta if you need Dart 3.4 before stable
+        flutter-version: "3.13.0"  # or higher beta version
 
     - name: Install dependencies
       run: flutter pub get
